@@ -107,12 +107,23 @@ nav a{
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #b7e5f8;
+    background: #dee3e3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
 
